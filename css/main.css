@@ -65,10 +65,30 @@ a {
         list-style: none;
     }
 
-.work {
-    padding-bottom: 2%;
+        .work {
+            padding-bottom: 2%;
+        }
+
+footer {
+    padding-top: 4em;
+    text-align: right;
 }
 
+.email {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.social-media {
+    display: block;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 2em;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -85,12 +105,32 @@ a {
         padding-bottom: 3.5%;
     }
     
-    nav {
+    .footer,nav {
         padding-right: 2.5%;
     }
 }
 
 @media only screen and (min-width: 60em) {
+    
+     .wordmark {
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: #444444;
+        text-align: right;
+    }
+
+    .nav-links {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    
+    li {
+        padding-bottom: .25em;
+    }
+    
+    .email {
+        font-size: 16px;
+    }
     
 }
 
