@@ -17,6 +17,63 @@ html {
     box-sizing: inherit;
 }
 
-img {
-    width: 100%
+body {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
 }
+
+img {
+    width: 100%;
+    float: none;
+}
+
+    nav {
+        display: inline-block;
+        padding: .em;
+    }
+
+    .wordmark {
+        display: inline;    
+    }
+
+    .nav-links {
+        display: block;
+        float: right;
+    }
+
+    li {
+        display: inline-block
+    }
+
+.work {
+    padding-bottom: 2%;
+}
+
+
+@media only screen and (min-width: 25em) {
+    
+}
+
+@media only screen and (min-width: 38em) {
+   
+    body {
+        margin-right: 0;
+    }
+    
+    .work {
+        padding-right: 4.5%;
+        padding-bottom: 3.5%;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    
+}
+
+@media only screen and (min-width: 90em) {
+    
+}
+
+
+
