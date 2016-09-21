@@ -34,36 +34,35 @@ a {
 
     nav {
         display: block;
-        padding-bottom: 5em;
+        padding-bottom: 4em;
     }
 
     .wordmark {
-        display: inline;
+        display: block;
         font-family: 'Montserrat', sans-serif;
         font-size: 14px;
-        font-weight: 300;
         letter-spacing: 1.5px;
         color: #444444;
+        text-align: right;
     }
 
     .nav-links {
-        display: block;
-        float: right;
+        text-emphasis: right;
         margin: 0;
         font-family: 'Montserrat', sans-serif;
         font-size: 12px;
-        font-weight: 300;
         letter-spacing: 1.5px;
         text-decoration: none;
         color: #696969;
     }
 
-    .nav-links:visited {
+    li:visited {
         color: #696969;
     }
 
     li {
-        display: inline-block;
+        text-align: right;
+        list-style: none;
     }
 
 .work {
