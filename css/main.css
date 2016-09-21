@@ -28,22 +28,42 @@ img {
     float: none;
 }
 
+a {
+    text-decoration: none;
+}
+
     nav {
-        display: inline-block;
-        padding: .em;
+        display: block;
+        padding-bottom: 5em;
     }
 
     .wordmark {
-        display: inline;    
+        display: inline;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        color: #444444;
     }
 
     .nav-links {
         display: block;
         float: right;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        color: #696969;
+    }
+
+    .nav-links:visited {
+        color: #696969;
     }
 
     li {
-        display: inline-block
+        display: inline-block;
     }
 
 .work {
@@ -52,7 +72,7 @@ img {
 
 
 @media only screen and (min-width: 25em) {
-    
+
 }
 
 @media only screen and (min-width: 38em) {
