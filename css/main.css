@@ -13,8 +13,8 @@ html {
   text-size-adjust: 100%;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -71,10 +71,6 @@ a {
         color: #696969;
     }
 
-    .nav-links:hover {
-        color: red;
-    }
-
     ul li {
         display: inline;
         text-align: center;
@@ -84,16 +80,29 @@ a {
          padding-bottom: 2%;
         }
 
-.work:hover ~ hr {
-    margin-left: 25%;
-}
+    .work:hover ~ hr {
+        margin-left: 25%;
+    }
 
-.about:hover ~ hr {
-    margin-left: 50%;
-}
-contact:hover ~ hr {
-    margin-left: 75%;
-}
+    .about:hover ~ hr {
+        margin-left: 50%;
+    }
+    
+    .contact:hover ~ hr {
+        margin-left: 75%;
+    }
+
+    hr {
+        height: .25rem;
+        width: 25%;
+        margin: 0;
+        background: tomato;
+        border: none;
+        -webkit-transition: 3s ease-in-out;
+        -moz-transition: 3s ease-in-out;
+        -o-transition: 3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
 
 .social-media {
     
