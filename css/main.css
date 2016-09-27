@@ -92,7 +92,7 @@ footer {
     text-align: right;
 }
 
-.email {
+.connect {
     font-family: 'proxima-nova', sans-serif;
     font-weight: 200;
     font-size: 14px;
@@ -103,10 +103,6 @@ footer {
 .link {
     width: 20px;
     margin: .25em;
-}
-
-.email-link {
-    width: 30px;
 }
 
 .social-media {
