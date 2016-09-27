@@ -13,8 +13,8 @@ html {
   text-size-adjust: 100%;
 }
 
-* {
-  box-sizing: border-box;
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
@@ -43,25 +43,10 @@ a {
     }
 
     .wordmark {
-        display: block;
-        font-family: 'proxima-nova', sans-serif;
-        font-weight: 100;
-        font-size: 14px;
-        letter-spacing: 1.5px;
-        color: #444;
-        text-align: right;
-    }
-
-    .container {
-        width: 50%;
-        margin: 0 auto;
+        
     }
 
     .nav-links {
-        display: inline-block;
-        width: 25%;
-        padding: .75rem 0;
-        margin: 0;
         text-emphasis: right;
         font-family: 'proxima-nova', sans-serif;
         font-weight: 200;
@@ -71,38 +56,22 @@ a {
         color: #696969;
     }
 
-    ul li {
-        display: inline;
-        text-align: center;
+.nav-links:hover {
+    color: red;
+}
+
+    li:visited {
+        color: #696969;
     }
 
-    .work-pieces {
+    li {
+        text-align: right;
+        list-style: none;
+    }
+
+    .work {
          padding-bottom: 2%;
         }
-
-    .work:hover ~ hr {
-        margin-left: 25%;
-    }
-
-    .about:hover ~ hr {
-        margin-left: 50%;
-    }
-    
-    .contact:hover ~ hr {
-        margin-left: 75%;
-    }
-
-    hr {
-        height: .25rem;
-        width: 25%;
-        margin: 0;
-        background: tomato;
-        border: none;
-        -webkit-transition: 3s ease-in-out;
-        -moz-transition: 3s ease-in-out;
-        -o-transition: 3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
 
 .social-media {
     
