@@ -37,50 +37,46 @@ a {
     text-decoration: none;
 }
 
-    nav {
-        display: block;
-        padding-bottom: 4em;
+/*** navigation bar ***/
+
+nav {
+    display: block;
+    padding-bottom: 4em;
     }
 
-    .wordmark {
-        
-    }
+.wordmark {
+    width: 150px;
+    display: inline-block;
+}
 
-    .nav-links {
-        text-emphasis: right;
-        font-family: 'proxima-nova', sans-serif;
-        font-weight: 200;
-        font-size: 16px;
-        letter-spacing: 1.5px;
-        text-decoration: none;
-        color: #696969;
-    }
+.nav-links {
+    display: inline;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #696969;
+}
 
 .nav-links:hover {
     color: red;
 }
 
-    li:visited {
-        color: #696969;
-    }
-
-    li {
-        text-align: right;
-        list-style: none;
-    }
-
-    .work {
-         padding-bottom: 2%;
-        }
-
-.social-media {
-    
+li:visited {
+    color: #696969;
 }
 
-.link {
-    width: 20px;
-    margin: .25em;
+li {
+    text-align: right;
+    list-style: none;
 }
+
+.work {
+    padding-bottom: 2%;
+}
+
+/** about page **/
 
 .about-p {
     font-family: 'proxima-nova', sans-serif;
@@ -89,29 +85,44 @@ a {
     padding: 1em;
 }
 
-    footer {
-        padding-top: 4em;
-        text-align: right;
-    }
+/** footer bar **/
 
-    .email {
-        font-family: 'proxima-nova', sans-serif;
-        font-size: 14px;
-        color: #444;
-        letter-spacing: .5px;
-    }
+footer {
+    padding-top: 4em;
+    text-align: right;
+}
 
-    .social-media {
-        display: block;
-    }
+.email {
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+    color: #444;
+    letter-spacing: 1.5px;
+}
 
-    .copyright {
-        font-family: 'proxima-nova', sans-serif;
-        text-align: center;
-        font-size: 11px;
-        padding-top: 2em;
-        color: darkgrey;
-    }
+.link {
+    width: 20px;
+    margin: .25em;
+}
+
+.email-link {
+    width: 30px;
+}
+
+.social-media {
+    display: block;
+}
+
+.copyright {
+    font-family: 'proxima-nova', sans-serif;
+    text-align: center;
+    font-size: 11px;
+    padding-top: 2em;
+    color: darkgrey;
+}
+
+
+
 
 @media only screen and (min-width: 25em) {
 
@@ -139,13 +150,6 @@ a {
 }
 
 @media only screen and (min-width: 60em) {
-    
-     .wordmark {
-        font-size: 18px;
-        letter-spacing: 2px;
-        color: #444444;
-        text-align: right;
-    }
 
     .nav-links {
         font-size: 16px;
