@@ -18,6 +18,7 @@ html {
 }
 
 body {
+    background-color: #F5F5F5;
     margin-left: 2.5%;
     margin-right: 2.5%;
     margin-top: 2.5%;
@@ -68,7 +69,7 @@ header {
 /** footer bar **/
 
 footer {
-    background-color: white;
+    background-color:#F5F5F5;
     position: fixed;
     width: 96%;
     bottom: 0;
@@ -86,7 +87,11 @@ footer {
     font-size: 16px;
     letter-spacing: 1.5px;
     text-decoration: none;
-    color: #696969;
+    color: #4F4F4F;
+}
+
+.link:visited {
+    color: #4F4F4F;
 }
 
 .link:hover {
@@ -96,7 +101,7 @@ footer {
 .social-link {
     width: 25px;
     float: right;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 
