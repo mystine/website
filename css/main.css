@@ -67,11 +67,11 @@ header {
 
 /** footer bar **/
 
-.fixed-nav {
+footer {
     background-color: white;
     position: fixed;
     width: 100%;
-    bottom: 35px;
+    bottom: 1px;
     padding: 15px;
 }
 
@@ -108,16 +108,6 @@ header {
 .social-media {
     display: inline;
 }
-
-.copyright {
-    font-family: 'proxima-nova', sans-serif;
-    text-align: center;
-    font-size: 11px;
-    padding-top: 2em;
-    color: darkgrey;
-}
-
-
 
 
 @media only screen and (min-width: 25em) {
