@@ -115,6 +115,16 @@ footer {
         margin-right: 0;
     }
     
+    header {
+        display: block;
+        padding: 0;
+}
+
+    .wordmark {
+        width: 100px;
+        float: left;
+        display: inline-block;
+}
     .work {
         padding-right: 4.5%;
         padding-bottom: 3.5%;
