@@ -42,14 +42,14 @@ a {
 nav {
     display: block;
     padding-top: 1.5em;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
 }
 
 .wordmark {
     text-align: right;
     font-family: 'proxima-nova', sans-serif;
-    letter-spacing: 1.5px;
-    font-weight: 400;
+    letter-spacing: 2px;
+    font-weight: 600;
     color: black;
     font-size: 16px;
     
