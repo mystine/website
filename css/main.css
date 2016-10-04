@@ -70,16 +70,17 @@ header {
 footer {
     background-color: white;
     position: fixed;
-    width: 100%;
-    bottom: 1px;
-    padding: 15px;
+    width: 96%;
+    bottom: 0;
+    padding-top: 15px;
+    padding-bottom: 8px;
 }
 
 
 .link {
     float: left;
     display: inline;
-    padding-right: 12px;
+    padding-right: 15px;
     font-family: 'proxima-nova', sans-serif;
     font-weight: 200;
     font-size: 16px;
@@ -89,24 +90,13 @@ footer {
 }
 
 .link:hover {
-    color: red;
-}
-
-.connect {
-    font-family: 'proxima-nova', sans-serif;
-    font-weight: 200;
-    font-size: 14px;
-    color: #444;
-    letter-spacing: 1.5px;
+    font-weight: 400;
 }
 
 .social-link {
-    width: 20px;
-    margin: .25em;
-}
-
-.social-media {
-    display: inline;
+    width: 25px;
+    float: right;
+    margin-left: 10px;
 }
 
 
@@ -132,25 +122,6 @@ footer {
     .about-p {
         padding-top: 0;
     }
-    
-    .wordmark {
-    width: 150px;
-    display: inline;
-    font-family: 'proxima-nova', sans-serif;
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    color: black;
-}
-
-.nav-links {
-    display: inline-block;
-    font-family: 'proxima-nova', sans-serif;
-    font-weight: 200;
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    color: #696969;
-}
     
 }
 
