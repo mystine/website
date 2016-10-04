@@ -39,47 +39,18 @@ a {
 
 /*** navigation bar ***/
 
-nav {
+header {
     display: block;
     padding-top: 1.5em;
     padding-bottom: 2em;
 }
 
 .wordmark {
-    text-align: right;
-    font-family: 'proxima-nova', sans-serif;
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    color: black;
-    font-size: 22px;
-    
+    width: 150px;
+    display: block;
+    margin: auto;
 }
 
-.links {
-    font-family: 'proxima-nova', sans-serif;
-    font-weight: 200;
-    font-size: 16px;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    color: #696969;
-}
-
-.links:hover {
-    color: red;
-}
-
-li:visited {
-    color: #696969;
-}
-
-li {
-    text-align: right;
-    list-style: none;
-}
-
-.work {
-    padding-bottom: 2%;
-}
 
 /** about page **/
 
@@ -90,11 +61,35 @@ li {
     padding: 1em;
 }
 
+.work {
+    padding-bottom: 2%;
+}
+
 /** footer bar **/
 
-footer {
-    padding-top: 4em;
-    text-align: right;
+.fixed-nav {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 35px;
+    padding: 15px;
+}
+
+
+.link {
+    float: left;
+    display: inline;
+    padding-right: 12px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #696969;
+}
+
+.link:hover {
+    color: red;
 }
 
 .connect {
@@ -105,13 +100,13 @@ footer {
     letter-spacing: 1.5px;
 }
 
-.link {
+.social-link {
     width: 20px;
     margin: .25em;
 }
 
 .social-media {
-    display: block;
+    display: inline;
 }
 
 .copyright {
