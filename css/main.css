@@ -53,18 +53,20 @@ header {
 }
 
 
-/** about page **/
-
-.about-p {
-    font-family: 'proxima-nova', sans-serif;
-    line-height: 19px;
-    font-size: 16px;
-    padding: 1em;
-}
+/** work **/
 
 .work {
     padding-bottom: 2%;
 }
+
+
+/** about page **/
+
+.about {
+    background-color: aqua;
+}
+
+
 
 /** footer bar **/
 
@@ -122,16 +124,12 @@ footer {
 
     .wordmark {
         width: 100px;
-        float: left;
         display: inline-block;
+        padding-bottom: 10px;
 }
     .work {
         padding-right: 4.5%;
         padding-bottom: 3.5%;
-    }
-    
-    .footer,nav {
-        padding-right: 2.5%;
     }
     
     .about-p {
@@ -153,6 +151,10 @@ footer {
     
     .email {
         font-size: 16px;
+    }
+    
+    .wordmark {
+        padding-bottom: 20px;
     }
     
 }
